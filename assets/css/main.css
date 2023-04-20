@@ -1,0 +1,120 @@
+#cuerpo {
+    background-color: #0dcaf0;
+    font-family: sans-serif;
+    margin: auto;
+    width: auto;
+    padding: 0px 10px 0px;
+    max-width: 1400px;
+
+}
+
+.nav {
+    margin: auto;
+    background-color: #054B88;
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    line-height: 50px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+
+.btn-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 25px;
+    padding: 0 20px 20px;
+    line-height: 60px;
+}
+
+#header {
+    max-width: 1200px;
+    display: flex;
+    padding: 150px 0px 150px;
+    font-size: large;
+}
+
+#titulo {
+    color: white;
+}
+
+main {
+    background-image: url(../img/kindpng_26398291.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form-label {
+    color: white;
+    font-size: larger;
+}
+
+#tabla {
+    color: white;
+}
+
+@media (max-width: 767.98px) {
+    #cuerpo {
+        justify-content: center;
+        position: relative;
+    }
+
+    .nav {
+        height: 200px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        margin-right: 60px;
+    }
+
+    .btn-toggle {
+        font-size: 25px;
+    }
+
+    #titulo {
+        margin-left: 30px;
+        padding-top: 500px;
+    }
+
+    #logo{
+        margin-left: 30px;
+    }
+
+    main {
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    
+    .list-group {
+        min-width: min-content;
+        padding-top: 3px;
+        margin-left: 30px;
+    }
+
+    #tabla {
+        min-width: 50px;
+    }
+
+}
